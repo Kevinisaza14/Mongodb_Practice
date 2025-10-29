@@ -1,0 +1,7 @@
+# Dependencias para practicar con MongoDB
+pymongo>=4.0,<5.0
+dnspython>=2.0,<3.0   # necesario si usas URIs mongodb+srv
+motor>=3.1,<4.0       # driver async (opcional)
+python-dotenv>=1.0,<2.0  # carga variables de entorno (.env)
+mongomock>=4.1,<5.0   # mock en memoria para tests
+pytest>=7.0,<8.0      # testing
