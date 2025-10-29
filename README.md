@@ -2,6 +2,25 @@
 
 Pequeña API REST construida con Python y MongoDB para gestionar una colección de "notas". Proyecto pensado como ejercicio práctico y como pieza para incluir en tu portafolio profesional: código claro, estructura modular y ejemplos de despliegue local.
 
+# Características principales:
+1- Esquema flexible: Los documentos en MongoDB no requieren de una estructura definida previamente, lo que permite almacenar datos de forma más flexible y evolucionar el esquema de datos con el tiempo. 
+
+2- Escalabilidad: MongoDB esta diseñado para ser escalable horizontalmente, distribuyendo los datos a tarves de múltiples servidores para manejar grandes volúmenes de información y cargas de trabajo.
+
+3- Consultas poderosas (agregaciones): Soporta consultas complejas, índices y agregaciones, permitiendo realizar operaciones complejas sobre los datos.
+
+4- Alta disponibilidad: MongoDB puede configurarse para mantener los datos disponibles incluso en situaciones de fallo de hardware o red. 
+
+5- Rendimiento: Debido a su arquitectura de almacenamiento de documentos y su capacidad de indexación, MongoDB puede proporcionar un rendimiento rápido sobretodo a aplicaciones que trabajan con grandes volúmenes de datos.
+
+# Trabajar con MongoDB
+## Servidor 
+- [MongoDB Community Server (local)](https://www.mongodb.com/try/download/community)
+- [MongoDB Atlas (nube)](https://www.mongodb.com/es/atlas)
+
+## Cliente
+- [MongoDB Compass)](https://www.mongodb.com/products/tools/compass)
+
 Por qué incluirlo en tu portafolio  
 - Demuestra habilidades backend con Python y Flask.  
 - Muestra integración con bases de datos NoSQL (MongoDB) y gestión de variables de entorno.  
